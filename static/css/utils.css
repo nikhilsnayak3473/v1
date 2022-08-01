@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.ws {
+  word-spacing: 10px;
+}
+
+.lh {
+  line-height: 150%;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.center{
+  width: 90%;
+  margin: auto;
+}

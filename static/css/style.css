@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Comfortaa:wght@500&family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: auto;
+}
+/* Navbar */
+
+.navbar {
+  justify-content: space-between;
+  min-height: 7vh;
+  background-color: rgb(191 183 183);
+}
+
+.navbar ul {
+  padding: 0px 25px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #392323;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+}
+
+.logo {
+  width: 20px;
+  padding: 0px 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(191 183 183);
+  min-height: 7vh;
+}
+
+.footer a img {
+  width: 2em;
+  margin: 0px 20px;
+}
+
+/* Main */
+
+main {
+  background-color: #f1eae1;
+  padding: 100px 0vh;
+  min-height: 100vh;
+}
+
+.photo {
+  min-width: 30%;
+  margin: 0px auto;
+}
+
+.photo img {
+  width: 25rem;
+  border: white solid 5px;
+  border-radius: 20em;
+}
+.content {
+  min-width: 70%;
+  padding-top: 2em;
+}
+
+.content h1 {
+  font-size: 5em;
+}
+
+.content h2 {
+  font-size: 3em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.content h3 {
+  font-size: 2em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.content p {
+  margin-top: 2em;
+  font-size: 1.5em;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.content a {
+  background-color: rgb(51, 200, 160);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.intro {
+  width: 80%;
+}
+
+.resume {
+  margin: 50px 0px;
+}
+
+/* About */
+
+#about,
+#contact,
+#projects {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 25px auto;
+}
+
+#about h1,
+#contact h1,
+#projects h1 {
+  padding: 20px;
+}
+
+.fields {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+strong {
+  font-size: 1.8em;
+}
